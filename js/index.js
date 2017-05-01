@@ -1,10 +1,15 @@
 
+//Page Scroller function
 $(document).ready(function() {
 			$('#fullpage').fullpage({
 				verticalCentered: false
 			});
 		});
 
+
+//custom video
+
+//Star animations
 setInterval(function() {
   // method to be executed;
   $("#star-1").css("display", "none");
@@ -46,3 +51,9 @@ setInterval(function() {
   $("#star-3").css("display", "block");
 
 }, 8000);
+
+
+//lettering
+  $(document).ready(function() {
+	    $("#trailer-title").lettering();
+	  });

@@ -1,0 +1,162 @@
+.video-js {
+  margin: 60px auto;
+        box-shadow: 110px 110px 300px 110px rgba(87, 0, 43, 0.2);
+    
+}
+
+.video-js-box{
+    padding-top: 120px;
+
+    }
+.w-video {
+  overflow: hidden;
+  max-width: 100%;
+    border-radius: 55px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.w-video.video-js .vjs-loading-spinner:before {
+  border-top-color: black;
+}
+.w-video.video-js .vjs-menu-button-inline:before {
+  width: 1.6em;
+}
+.w-video.video-js .vjs-play-control, .w-video.video-js .vjs-volume-menu-button, .w-video.video-js .vjs-fullscreen-control {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  top: -50px;
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 20px;
+}
+.w-video.video-js .vjs-play-control:hover, .w-video.video-js .vjs-volume-menu-button:hover, .w-video.video-js .vjs-fullscreen-control:hover {
+  opacity: 1;
+}
+.w-video.video-js .vjs-play-control {
+  margin: 0 0 3px 6px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.w-video.video-js .vjs-volume-menu-button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.w-video.video-js .vjs-fullscreen-control {
+  margin: 0 6px 3px 6px;
+}
+.w-video.video-js .vjs-control:before {
+  font-size: 2.5em;
+}
+.w-video.video-js .vjs-icon-volume-high:before, .w-video.video-js .vjs-icon-play:before {
+  content: " ";
+}
+.w-video.video-js .vjs-mouse-display:after {
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+.w-video.video-js .vjs-control-bar {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.w-video.video-js .vjs-progress-holder .vjs-play-progress {
+  background-color: black;
+}
+.w-video.video-js .vjs-load-progress {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.w-video.video-js .vjs-play-progress:before, .w-video.video-js .vjs-play-progress:after {
+  display: none;
+}
+.w-video.video-js .vjs-slider-horizontal .vjs-volume-level:before {
+  display: none;
+}
+.w-video.video-js .vjs-big-play-button {
+  background-color: black;
+}
+.w-video.video-js .vjs-current-time {
+  display: block;
+}
+.w-video.video-js .vjs-menu .vjs-slider {
+  margin: 18px 0 0;
+  width: 62px;
+}
+.w-video.video-js .vjs-big-play-button {
+  font-size: 50px;
+  line-height: 0;
+  height: 60px;
+  width: 60px;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: none;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.w-video.video-js .vjs-big-play-button:before {
+  top: 30px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.w-video.video-js .vjs-big-play-button:hover {
+  margin-top: -40px;
+  margin-left: -40px;
+  height: 80px;
+  width: 80px;
+}
+.w-video.video-js .vjs-big-play-button:hover:before {
+  top: 40px;
+}
+.w-video.video-js .vjs-progress-control {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.w-video.video-js .vjs-progress-control:hover {
+  top: -6px;
+  height: 7px;
+}
+.w-video.video-js .vjs-slider {
+  margin: 0;
+}
+.w-video.video-js .vjs-control-bar {
+  bottom: -40px;
+  height: 40px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.w-video.video-js .vjs-fullscreen-control {
+  position: absolute;
+  right: 0;
+}
+.w-video.video-js .vjs-control:hover:before, .w-video.video-js .vjs-control:focus:before, .w-video.video-js .vjs-icon-volume-high:hover:before, .w-video.video-js .vjs-icon-volume-high:focus:before, .w-video.video-js .vjs-icon-play:hover:before, .w-video.video-js .vjs-icon-play:focus:before, .w-video.video-js .vjs-fullscreen-control:hover:before, .w-video.video-js .vjs-fullscreen-control:focus:before {
+  text-shadow: none;
+}
+.w-video.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+}
+.w-video.vjs-user-inactive.vjs-playing .vjs-control-bar .vjs-play-control, .w-video.vjs-user-inactive.vjs-playing .vjs-control-bar .vjs-volume-menu-button, .w-video.vjs-user-inactive.vjs-playing .vjs-control-bar .vjs-fullscreen-control {
+  top: 0px;
+}
+.w-video .video-js .vjs-progress-holder .vjs-play-progress, .w-video .video-js .vjs-progress-holder .vjs-load-progress, .w-video .video-js .vjs-progress-holder .vjs-tooltip-progress-bar, .w-video .video-js .vjs-progress-holder .vjs-load-progress div, .w-video .video-js .vjs-progress-holder {
+  height: 100%;
+}

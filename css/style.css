@@ -1,6 +1,6 @@
 
 body{
-  background-image:url("http://i64.tinypic.com/25u30if.png");
+  background-image:url("../img/mid.png");
   background-size:cover;
 }
 
@@ -35,28 +35,49 @@ body{
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url(http://i67.tinypic.com/2a6v528.png);
+		background-image: url("../img/Top.png");
     opacity:.8;
 	}
 	#section0 h1{
 		top: 50%;
 
 		transform: translateY(-90%);
- 
 		position: relative;
 	}
+
+#trailer-title span:nth-child(odd){
+    opacity:.8;
+}
   #section1{
-    		background-image: url("http://i64.tinypic.com/25u30if.png");
-        opacity:.8;
+    		background-image: url("../img/mid.png");
+            opacity:.8;
+                    margin-top:-px;
+
+
   }
+
+
 	#section2{
-		background-image: url("http://i66.tinypic.com/ie2s9c.png");
+		background-image: url("../img/bot.png");
      animation: mega-drift 5s ease-in-out infinite;
+
     opacity:.8;
 	}
 	
 	
+#space-man{
+    width:17%;
+    position: absolute;
+    left:10%;
+    top:25%;
+    
+     -webkit-animation:space-man-drift 25s linear infinite;
+-moz-animation: space-man-drift 25s linear infinite;
+-o-animation: space-man-drift 25s linear infinite;
+-ms-animation: space-man-drift 25s linear infinite;
+animation:space-man-drift 25s linear infinite;
 
+}
 
 
 .star {
@@ -207,6 +228,12 @@ animation:drift 25s linear infinite;
 
 @keyframes mega-drift{
   0% {transform: translateY(0px) rotate();}
-  50% {transform: translateY(-2px) rotate(1deg);}
+  50% {transform: translateY(1px) rotate(-1deg);}
   100% {transform: translateY(0px) rotate();}
+}
+
+@keyframes space-man-drift{
+  0% {transform: translateY() rotate();}
+  50% {transform: translateY(3px) rotate(10deg);}
+  100% {transform: translateY( ) rotate();}
 }
