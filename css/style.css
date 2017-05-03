@@ -6,7 +6,7 @@ body{
 
 /* Style for our header texts
 	* --------------------------------------- */
-	h1{
+h1{
     color:white;
 		
     font-family: 'Space Mono', monospace;
@@ -18,14 +18,14 @@ body{
 
 	/* Centered texts in each section
 	* --------------------------------------- */
-	.section{
+.section{
 		text-align:center;
 	}
 
 
 	/* Backgrounds will cover all the section
 	* --------------------------------------- */
-	.section{
+.section{
 		background-size: cover;
 	}
 	.slide{
@@ -34,24 +34,25 @@ body{
 
 	/* Defining each section background and styles
 	* --------------------------------------- */
-	#section0{
+#section0{
 		background-image: url("../img/Top.png");
     opacity:.8;
 	}
-	#section0 h1{
+#trailer-title{
 		top: 50%;
 
 		transform: translateY(-90%);
 		position: relative;
+        font-size: 35px
 	}
 
 #trailer-title span:nth-child(odd){
-    opacity:.8;
+    opacity:.9;
 }
   #section1{
     		background-image: url("../img/mid.png");
             opacity:.8;
-                    margin-top:-px;
+                    
 
 
   }
@@ -60,7 +61,6 @@ body{
 	#section2{
 		background-image: url("../img/bot.png");
      animation: mega-drift 5s ease-in-out infinite;
-
     opacity:.8;
 	}
 	

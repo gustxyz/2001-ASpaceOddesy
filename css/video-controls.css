@@ -1,7 +1,6 @@
 .video-js {
   margin: 60px auto;
         box-shadow: 110px 110px 300px 110px rgba(87, 0, 43, 0.2);
-    
 }
 
 .video-js-box{
@@ -13,6 +12,7 @@
   max-width: 100%;
     border-radius: 55px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 0;
 
 }
 .w-video.video-js .vjs-loading-spinner:before {
